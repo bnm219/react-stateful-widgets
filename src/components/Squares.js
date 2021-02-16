@@ -31,7 +31,6 @@ export default function Squares() {
     // This is NOT a click handler but a helper, used inside the JSX (see below).
     // It should return a string containing the class name of 'active', if the id passed
     // as the argument matches the active square in state, empty string otherwise.
-    console.log(activeSquare)
     if(id == activeSquare[0]){
       return 'active'
     }
